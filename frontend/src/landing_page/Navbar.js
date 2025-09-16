@@ -29,6 +29,12 @@ function Navbar() {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <form className="d-flex" role="search">
             <ul className="navbar-nav mb-lg-0">
+<li className="nav-item-active">
+  <a href="https://major-project-2-dashboard.onrender.com/" className="btn btn-primary" style={{ backgroundColor: "#bdbabaff", border: "none" }}>
+    Dashboard
+  </a>
+</li>
+
               <li className="nav-item-active">
                 <Link className="nav-link" aria-current="page" to="/signup">
                   Signup
